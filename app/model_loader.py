@@ -8,6 +8,7 @@ ADAPTER_PATH = "medical_coding_assistant_v3"
 
 DEVICE = "cpu"
 
+
 # Prevent CPU overuse
 torch.set_num_threads(2)
 
